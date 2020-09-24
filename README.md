@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # uniapp-app-frame
 
 #### Description
@@ -10,3 +11,7 @@ uniapp，小程序开发框架及开发规范。
 2. npm glup 
  
  
+=======
+# xiaoChenXu
+xioachensu
+>>>>>>> 7800f296547f7d3188436973d32c58cc12ee0d86
