@@ -73,6 +73,9 @@
 					</swiper-item>
 				</swiper>
 			</view>
+			
+			
+			
 		</view>
 		<view class="new">
 			<view class="title flex space-between">
