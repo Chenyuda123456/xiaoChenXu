@@ -1,0 +1,9 @@
+{
+	"path": "pages/frame/staff/staff", //页面路由路径
+	"style": {
+		"navigationBarTitleText": "员工风采" //页面标题 
+	}
+}
+
+
+

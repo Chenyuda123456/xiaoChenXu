@@ -1,0 +1,197 @@
+.el-main {
+	.markdown-here-wrapper {
+		font-size: 15px;
+		line-height: 1.8em;
+		letter-spacing: 0.1em;
+	}
+
+
+	/deep/ pre,
+	/deep/code {
+		font-size: 14px;
+		font-family: Roboto, 'Courier New', Consolas, Inconsolata, Courier, monospace;
+		margin: auto 5px;
+	}
+
+	/deep/code {
+		white-space: pre-wrap;
+		border-radius: 2px;
+		display: inline;
+	}
+
+	/deep/pre {
+		font-size: 15px;
+		line-height: 1.4em;
+		display: block !important;
+	}
+
+	/deep/ pre code {
+		white-space: pre;
+		overflow: auto;
+		border-radius: 3px;
+		padding: 1px 1px;
+		display: block !important;
+	}
+
+	/deep/ strong,
+	/deep/ b {
+		color: #BF360C;
+	}
+
+	/deep/ em,
+	i {
+		color: #009688;
+	}
+
+	/deep/ hr {
+		border: 1px solid #BF360C;
+		margin: 1.5em auto;
+	}
+
+	/deep/ p {
+		margin: 1.5em 5px !important;
+	}
+
+	/deep/table,
+	/deep/pre,
+	/deep/dl,
+	/deep/blockquote,
+	/deep/q,
+	/deep/ul,
+	/deep/ol {
+		margin: 10px 5px;
+	}
+
+	/deep/ul,
+	/deep/ol {
+		padding-left: 15px;
+	}
+
+	/deep/li {
+		margin: 10px;
+	}
+
+	/deep/li p {
+		margin: 10px 0 !important;
+	}
+
+	/deep/ul ul,
+	/deep/ul ol,
+	/deep/ol ul,
+	/deep/ol ol {
+		margin: 0;
+		padding-left: 10px;
+	}
+
+	/deep/ul {
+		list-style-type: circle;
+	}
+
+	/deep/dl {
+		padding: 0;
+	}
+
+	/deep/dl dt {
+		font-size: 1em;
+		font-weight: bold;
+		font-style: italic;
+	}
+
+	/deep/dl dd {
+		margin: 0 0 10px;
+		padding: 0 10px;
+	}
+
+	/deep/blockquote,
+	/deep/q {
+		border-left: 2px solid #009688;
+		padding: 0 10px;
+		color: #777;
+		quotes: none;
+		margin-left: 1em;
+	}
+
+	/deep/ blockquote::before,
+	/deep/ blockquote::after,
+	/deep/ q::before,
+	/deep/q::after {
+		content: none;
+	}
+
+	/deep/h1,
+	/deep/ h2,
+	/deep/h3,
+	/deep/ h4,
+	/deep/h5,
+	/deep/h6 {
+		margin: 20px 0 10px;
+		padding: 0;
+		font-style: bold !important;
+		color: #009688 !important;
+		text-align: center !important;
+		margin: 1.5em 5px !important;
+		padding: 0.5em 1em !important;
+	}
+
+	/deep/h1 {
+		font-size: 24px !important;
+		border-bottom: 1px solid #ddd !important;
+	}
+
+	/deep/h2 {
+		font-size: 20px !important;
+		border-bottom: 1px solid #eee !important;
+	}
+
+	/deep/h3 {
+		font-size: 18px;
+	}
+
+	/deep/h4 {
+		font-size: 16px;
+	}
+
+
+	/deep/table {
+		padding: 0;
+		border-collapse: collapse;
+		border-spacing: 0;
+		font-size: 1em;
+		font: inherit;
+		border: 0;
+		margin: 0 auto;
+	}
+
+	/deep/tbody {
+		margin: 0;
+		padding: 0;
+		border: 0;
+	}
+
+	/deep/table tr {
+		border: 0;
+		border-top: 1px solid #CCC;
+		background-color: white;
+		margin: 0;
+		padding: 0;
+	}
+
+	/deep/table tr:nth-child(2n) {
+		background-color: #F8F8F8;
+	}
+
+	/deep/table tr th,
+	/deep/table tr td {
+		font-size: 16px;
+		border: 1px solid #CCC;
+		margin: 0;
+		padding: 5px 10px;
+	}
+
+	/deep/table tr th {
+		font-weight: bold;
+		color: #eee;
+		border: 1px solid #009688;
+		background-color: #009688;
+	}
+}

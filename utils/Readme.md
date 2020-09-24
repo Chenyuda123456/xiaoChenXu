@@ -1,0 +1,3 @@
+- extra 	 外部方法
+- moon 		 自定义方法
+- uniapp 	 封装方法

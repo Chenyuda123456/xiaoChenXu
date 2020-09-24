@@ -1,0 +1,6 @@
+{
+		"path": "pages/frame/new/new", //页面路由路径
+		"style": {
+			"navigationBarTitleText": "企业资讯" //页面标题 
+		}
+	}

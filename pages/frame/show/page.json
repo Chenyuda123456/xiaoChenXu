@@ -1,0 +1,6 @@
+{
+		"path": "pages/frame/show/show", //页面路由路径
+		"style": {
+			"navigationBarTitleText": "产品展示" //页面标题 
+		}
+	}

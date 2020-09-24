@@ -1,0 +1,9 @@
+{
+	"path": "pages/modules/b/b", //页面路由路径
+	"style": {
+		"navigationBarTitleText": "b", //页面标题
+		"app-plus": {
+			"titleNView": true
+		} 
+	}
+}

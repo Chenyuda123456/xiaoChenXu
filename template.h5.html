@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+		<title>
+			<%= htmlWebpackPlugin.options.title %>
+		</title>
+		<!-- 正式发布的时候使用，开发期间不启用。↓ -->
+        <!-- <script src="/h5/touch-emulator.js"></script>
+		<script>
+            TouchEmulator();
+			if (document.documentElement.clientWidth > 1024) {
+				window.location.href = '/h5/pcguide.html#'+location.pathname+location.search;
+			}
+		</script>
+        <style>
+            ::-webkit-scrollbar{
+                display: none;
+            }
+        </style>
+        <script>
+            var _hmt = _hmt || [];
+            (function() {
+                var hm = document.createElement("script");
+                hm.src = "https://hm.baidu.com/hm.js?";// 百度统计key
+                var s = document.getElementsByTagName("script")[0];
+                s.parentNode.insertBefore(hm, s);
+            })();
+        </script> -->
+        <!-- 正式发布的时候使用，开发期间不启用。↑ -->
+		<script>
+			document.addEventListener('DOMContentLoaded', function() {
+				document.documentElement.style.fontSize = document.documentElement.clientWidth / 20 + 'px'
+			})
+		</script>
+		<!-- <link crossorigin="anonymous" integrity="sha384-O56yuCW/A5HUnuYx7ap1CJOXGXqaD3BxgKS9EDLgNUpNIE2BY7KsLJ+H5yr+CXpf" href="https://lib.baomitu.com/element-ui/2.13.2/theme-chalk/index.css" rel="stylesheet"> -->
+		<!-- <script crossorigin="anonymous" integrity="sha384-OZmxTjkv7EQo5XDMPAmIkkvywVeXw59YyYh6zq8UKfkbor13jS+5p8qMTBSA1q+F" src="https://lib.baomitu.com/vue/2.6.11/vue.min.js"></script> -->
+		<!-- <script crossorigin="anonymous" integrity="sha384-WbhdtWslh0AUD1Dhf8OExUvvjZ/VN6o2HHMsYlDXb6uf3IweMH13dGL4V/KgDc7y" src="https://lib.baomitu.com/element-ui/2.13.2/index.js"></script> -->
+		<link rel="stylesheet" href="<%= BASE_URL %>static/index.css" />
+	</head>
+	<body>
+		<!-- 该文件为 H5 平台的模板 HTML，并非应用入口。 -->
+		<!-- 请勿在此文件编写页面代码或直接运行此文件。 -->
+		<!-- 详见文档：https://uniapp.dcloud.io/collocation/manifest?id=h5-template -->
+		<noscript>
+			<strong>Please enable JavaScript to continue.</strong>
+		</noscript>
+		<div id="app"></div>
+		<!-- built files will be auto injected -->
+		<script>
+			/*BAIDU_STAT*/
+		</script>
+	</body>
+</html>

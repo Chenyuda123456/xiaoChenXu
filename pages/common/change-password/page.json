@@ -1,0 +1,11 @@
+{
+	"path": "pages/common/change-password/phoneValidate", //页面路由路径
+	"style": {
+		"navigationBarTitleText": "忘记密码" //页面标题 
+	}
+}, {
+	"path": "pages/common/change-password/setNewPassword", //页面路由路径
+	"style": {
+		"navigationBarTitleText": " 设置新密码" //页面标题 
+	}
+}

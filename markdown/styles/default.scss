@@ -1,0 +1,59 @@
+.el-main {
+	font-size: 100px;
+	$fontSize: 0.4rem;
+		/deep/ h1 {
+			font-size: $fontSize;
+			margin-top: 1em;
+		}
+		/deep/ h2 {
+			font-size: calc($fontSize - 0.1rem);
+			margin-top: 1em;
+		}
+		/deep/ h3 {
+			font-size: calc($fontSize - 0.2rem);
+			margin-top: 1em;
+		}
+		/deep/ h4 {
+			font-size: calc($fontSize - 0.3rem);
+			margin-top: 1em;
+		}
+		/deep/ h5 {
+			font-size: calc($fontSize - 0.4rem);
+			margin-top: 1em;
+		}
+		/deep/ h6 {
+			font-size: calc($fontSize - 0.5rem);
+			margin-top: 1em;
+		}
+	
+	/deep/ table,
+	　/deep/ td,
+	　/deep/th {
+		word-wrap: break-word;
+		border: 1px solid #cccccc;
+		border-collapse: collapse;
+		padding: 20px;
+		max-width: 100%;
+	}
+	/deep/ hr {
+		margin: 10px 0;
+	}
+	/deep/ pre {
+		background-color: rgb(250, 250, 250);
+		padding: 20px;
+		border-radius: 5px 5px;
+		margin-top: 20px;
+		margin-bottom: 20px;
+		font-size: 20px;
+	}
+	/deep/ code {
+		display: inline-block;
+		word-wrap: break-word;
+		word-break: break-all;
+		white-space: pre-wrap;
+	}
+	/deep/li {
+		font-size: 18px;
+		line-height: 0.5rem;
+	}
+}

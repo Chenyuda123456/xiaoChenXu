@@ -1,0 +1,67 @@
+{
+	"pages": [
+		/* inject处为导入first-page.json配置，及每个的页面的路由page.json配置**/
+		"pages-inject"
+		// #ifdef H5
+		/* markdown 视图 */
+		, {
+			"path": "markdown/index", //页面路由路径
+			"style": {
+				"navigationBarTitleText": "markdown", //页面标题 
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		}
+		// #endif
+	],
+	"subPackages": [],
+	/* 模式配置，仅开发期间生效 */
+	"condition": {
+		/* 当前激活的模式（list 的索引项） */
+		"current": 0,
+		"list": []
+	},
+	/* tabBar.list 需至少包含2项 */
+	"tabBar": {
+		"color": "rgb(133,157,201)",
+		"selectedColor": "#FFFFFF",
+		"backgroundColor": "#384B68",
+		"list": [{
+			"pagePath": "pages/frame/home/home",
+			"text": "公司首页",
+			"iconPath": "static/image/frame/tabBar/home.png",
+			"selectedIconPath": "static/image/frame/tabBar/home-active.png"
+		},{
+			"pagePath": "pages/frame/show/show",
+			"text": "产品展示",
+			"iconPath": "static/image/frame/tabBar/home.png",
+			"selectedIconPath": "static/image/frame/tabBar/home-active.png"
+		},{
+			"pagePath": "pages/frame/new/new",
+			"text": "企业资讯",
+			"iconPath": "static/image/frame/tabBar/home.png",
+			"selectedIconPath": "static/image/frame/tabBar/home-active.png"
+		}
+		]
+	},
+	"easycom": {
+		"autoscan": true,
+		"custom": {
+			/* 业务组件库 */
+			"service-(.*)": "@/components-service/service-$1/service-$1.vue",
+			/* 基础组件库 扫描引入npm安装的uni-ui */
+			"uni-(.*)": "@/components/@dcloudio/uni-ui/lib/uni-$1/uni-$1.vue"
+		}
+	},
+
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarBackgroundColor": "#1B60C6",
+		"animationDuration": 200,
+		"app-plus": {
+			"softinputNavBar": "none",
+			"softinputMode": "adjustResize"
+		}
+	}
+}

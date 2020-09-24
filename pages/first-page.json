@@ -1,0 +1,8 @@
+// {
+// 	// "pages/modules/b/b", //
+// 	"path":   "pages/frame/home/home", //页面路由路径
+// 	"style": {
+// 		"navigationBarTitleText": "登录" //页面标题
+// 		// "navigationStyle": "custom"   //隐藏标题
+// 	}
+// }

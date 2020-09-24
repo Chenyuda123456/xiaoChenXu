@@ -1,0 +1,6 @@
+{
+		"path": "pages/common/play-video/play-video", //页面路由路径
+		"style": {
+			"navigationBarTitleText": "视频播放" //页面标题 
+		}
+	}

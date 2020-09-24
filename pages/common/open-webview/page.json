@@ -1,0 +1,6 @@
+{
+		"path": "pages/common/open-webview/open-webview", //页面路由路径
+		"style": {
+			"navigationBarTitleText": "" //页面标题 
+		}
+	}

@@ -1,0 +1,6 @@
+{
+	"path": "pages/modules/baseData/baseData", //页面路由路径
+	"style": {
+		"navigationBarTitleText": "基础数据" //页面标题 
+	}
+} 

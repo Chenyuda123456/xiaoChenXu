@@ -1,0 +1,6 @@
+{
+		"path": "pages/frame/home/home", //页面路由路径
+		"style": {
+			"navigationBarTitleText": "企业首页" //页面标题 
+		}
+	}
